@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+encoding//src/com/sinpo/xnfc/MainActivity.java=UTF-8
+encoding//src/com/sinpo/xnfc/nfc/reader/PukaCardOperator.java=UTF-8
+encoding//src/com/sinpo/xnfc/nfc/reader/pboc/StandardECash.java=UTF-8

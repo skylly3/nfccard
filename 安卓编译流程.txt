@@ -1,0 +1,15 @@
+1. 安装jdk 1.8  x64
+
+2. 安装android sdk 24.4.1 :    installer_r24.4.1-windows.exe 到D:\Android
+
+3. 添加环境变量
+   ANDROID_HOME  D:\Android\android-sdk
+   JAVA_HOME  D:\jdk1.8.0_181
+   path  %ANDROID_HOME%\tools;%ANDROID_HOME%\platform-tools;%JAVA_HOME%\bin
+
+
+4. 打开android sdk下的sdk manager,  勾选platform tools 29.0.6
+                                        build-tools 29.0.2
+                                        platform 29
+
+4. 执行 gradlew.bat task build  成功则会生成apk到app/build/output/apk下
