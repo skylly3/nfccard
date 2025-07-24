@@ -1,12 +1,13 @@
 apply from: "conf.gradle"
 buildscript {
     repositories {
-        jcenter()
         flatDir {
             dirs 'libs'
         }
-        mavenCentral()
-        google()
+       maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+        maven { url 'https://maven.aliyun.com/repository/central' }
+        maven { url 'https://maven.aliyun.com/repository/google' }
 
     }
     dependencies {
@@ -19,12 +20,10 @@ buildscript {
 
 allprojects {
     repositories {
-//        maven {
-//            url 'https://dl.bintray.com/ddssingsong/maven'
-//        }
-        jcenter()
-        mavenCentral()
-        google()
+       maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+        maven { url 'https://maven.aliyun.com/repository/central' }
+        maven { url 'https://maven.aliyun.com/repository/google' }
 
 
     }
